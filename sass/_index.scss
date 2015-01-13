@@ -1,0 +1,99 @@
+#home{
+	
+
+
+	.featuredSpeakers{
+		.speaker-name{
+			font-size: 1.2em;
+		}
+	}
+
+
+	// Media Queries
+	// 	==========================================
+	//	SMALL LAYOUT
+	//	==========================================
+	@include respond-to(small){
+
+		//make featured speakers two across
+		.featuredSpeakers{
+			.speaker{
+				@include cols(1,2);
+			}
+		}
+		//end featuredSpeakers
+
+	}
+	//end small
+
+	// 	==========================================
+	//	MEDIUM LAYOUT
+	//	==========================================
+	@include respond-to(medium){
+		//change the intro stuff to move date/time next to the text
+		.featuredInfo{
+			
+			.intro{
+				@include cols(4,6);
+			}
+
+			.address{
+				@include cols(2,6);
+				.date{
+					@include no-cols;
+				}
+
+				.location{
+					@include no-cols;
+				}
+			}
+		}
+		//end featuredInfo
+		
+		
+
+	}
+	//end medium
+
+
+
+
+	// 	==========================================
+	//	LARGE LAYOUT
+	//	==========================================
+	@include respond-to(large){
+
+		//make featured speakers four across
+		.featuredSpeakers{
+			.speaker{
+				@include cols(1,4);
+			}
+		}
+		//end featuredSpeakers
+
+
+
+		//change the tracks to be in two cols
+		//need to move the title and text back to normal
+		.tracks{
+			clear: both;
+			@include clearfix;
+			.track{
+				clear: none; 
+
+				@include cols(1,2);
+
+				h3{
+					@include no-cols;
+				}
+
+				p{
+					@include no-cols;
+				}
+			}
+		}
+
+	}
+	//end large
+}
+// end home

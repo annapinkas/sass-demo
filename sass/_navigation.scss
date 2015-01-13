@@ -1,0 +1,141 @@
+/* ============================
+* NAVIGATION 
+* Modified from: http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-simple-responsive-mobile-first-navigation/
+* =============================*/
+/* line 114, layout/_navigation.scss */
+#main_nav {
+  clear: both;
+  margin-bottom: 0;
+  display: none;
+  /*hidden to start */
+}
+/* line 9, layout/_navigation.scss */
+#main_nav ul {
+  margin: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 16, layout/_navigation.scss */
+#main_nav li a {
+  display: block;
+  color: white;
+  background-color: #282828;
+  text-transform: uppercase;
+  padding: 0.625em;
+  /* 10/16 */
+  text-decoration: none;
+  border-bottom: none;
+}
+/* line 25, layout/_navigation.scss */
+#main_nav li a:hover {
+  color: #555;
+  background-color: #81cfe0;
+  border-bottom: none;
+}
+/* line 32, layout/_navigation.scss */
+#main_nav li a:active {
+  background-color: #168ca6;
+  color: white;
+}
+/* line 37, layout/_navigation.scss */
+#main_nav li a.current {
+  color: #555;
+  background-color: #81cfe0;
+}
+/* line 41, layout/_navigation.scss */
+#main_nav li:last-child a {
+  text-align: center;
+  border-top: 1px solid #474747;
+}
+
+/* line 120, layout/_navigation.scss */
+#footer_nav {
+  clear: both;
+  margin-bottom: 0;
+}
+/* line 9, layout/_navigation.scss */
+#footer_nav ul {
+  margin: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 16, layout/_navigation.scss */
+#footer_nav li a {
+  display: block;
+  color: white;
+  background-color: #282828;
+  text-transform: uppercase;
+  padding: 0.625em;
+  /* 10/16 */
+  text-decoration: none;
+  border-bottom: none;
+}
+/* line 25, layout/_navigation.scss */
+#footer_nav li a:hover {
+  color: #555;
+  background-color: #81cfe0;
+  border-bottom: none;
+}
+/* line 32, layout/_navigation.scss */
+#footer_nav li a:active {
+  background-color: #168ca6;
+  color: white;
+}
+/* line 37, layout/_navigation.scss */
+#footer_nav li a.current {
+  color: #555;
+  background-color: #81cfe0;
+}
+/* line 41, layout/_navigation.scss */
+#footer_nav li:last-child a {
+  text-align: center;
+  border-top: 1px solid #474747;
+}
+
+/* line 124, layout/_navigation.scss */
+#bottom_nav {
+  clear: both;
+  margin-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 9, layout/_navigation.scss */
+#bottom_nav ul {
+  margin: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 16, layout/_navigation.scss */
+#bottom_nav li a {
+  display: block;
+  color: white;
+  background-color: #282828;
+  text-transform: uppercase;
+  padding: 0.625em;
+  /* 10/16 */
+  text-decoration: none;
+  border-bottom: none;
+}
+/* line 25, layout/_navigation.scss */
+#bottom_nav li a:hover {
+  color: #555;
+  background-color: #81cfe0;
+  border-bottom: none;
+}
+/* line 32, layout/_navigation.scss */
+#bottom_nav li a:active {
+  background-color: #168ca6;
+  color: white;
+}
+/* line 37, layout/_navigation.scss */
+#bottom_nav li a.current {
+  color: #555;
+  background-color: #81cfe0;
+}
+/* line 41, layout/_navigation.scss */
+#bottom_nav li:last-child a {
+  text-align: center;
+  border-top: 1px solid #474747;
+}

@@ -1,0 +1,41 @@
+
+.container{
+	max-width: 81.25em;
+	margin: 0 auto;
+}
+.header{
+	background-color: $light-blue;
+overflow: hidden;
+
+	.con-name {
+		font-family: $font-display;
+		text-align: center;
+		color: white;
+		letter-spacing: .05em;
+		padding: 1em .5em 0 .5em;
+		margin-top: 0.5em;
+		text-transform: uppercase;
+		// @include cols(2,3);
+	}
+
+	.tagline-box{
+		// @include cols(1,3);
+	}
+}
+
+.arrow-box{
+	background-color: $red;
+}
+
+main{
+	clear:both;
+}
+
+footer{
+	clear: both;
+	padding: 1em 2em;
+	margin-top: 0;
+	color: white;
+	background-color: $grey;
+	width: 100%;
+}
